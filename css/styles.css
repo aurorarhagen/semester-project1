@@ -1,4 +1,6 @@
-/**Global styles**/
+/*<----------------------->*/
+    /**Global styles**/
+/*<----------------------->*/
 
 @font-face {
     font-family:'Patua One', Georgia, 'Times New Roman', Times, serif;
@@ -13,7 +15,42 @@ h1 {
     font-family: 'Patua One', serif;
 }
 
-main
+body
 {
-    color: blue;
+    background-color: #FFD686;
+}
+
+/**Navigation**/
+nav, #nav-box {
+    display: none;
+}
+
+#nav-box:checked ~ nav {
+    display: block;
+}
+
+@media (min-width: 600px) {
+    nav {
+        display: inline;
+    }
+    .hamburger-nav{
+        display: none;
+    }
+}
+
+@media (max-width: 600px) { 
+    .hnavtxt{
+        display: block;
+    }
+
+}
+
+.menu{
+    margin: 0;
+    padding: 8px;
+    height: 100%;
+}
+
+.menu li {
+    display: inline;
 }
