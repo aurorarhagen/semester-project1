@@ -11,13 +11,42 @@
     src: url('https://fonts.googleapis.com/css2?family=Oxygen&family=Patua+One&display=swap');
 }
 
-h1 {
+h1, .navtxt {
     font-family: 'Patua One', serif;
-}
+    text-decoration: none;
+    color: #F7F7F7;
+    font-size: 40px;
 
+}
+.navtxt {
+    padding: 30px;
+}
+p, .herobutton {
+    font-family: 'Oxygen';
+    text-decoration: none;
+}
 body
 {
     background-color: #FFD686;
+    margin: 0px;
+}
+
+/**Media queries**/
+@media (min-width: 600px) {
+    nav {
+        display: inline;
+    }
+    .hamburger-nav{
+        display: none;
+    }
+}
+
+@media (max-width: 600px) { 
+    .navtxt{
+        display: block;
+        font-size: 25px;
+        padding: 15px;
+    }
 }
 
 /**Navigation**/
@@ -29,28 +58,65 @@ nav, #nav-box {
     display: block;
 }
 
-@media (min-width: 600px) {
-    nav {
-        display: inline;
-    }
-    .hamburger-nav{
-        display: none;
-    }
+
+
+.logo {
+    max-width: 144px;
+    min-width: 104px;
 }
 
-@media (max-width: 600px) { 
-    .hnavtxt{
-        display: block;
-    }
-
-}
 
 .menu{
     margin: 0;
     padding: 8px;
     height: 100%;
+
 }
 
 .menu li {
     display: inline;
 }
+
+header {
+    background-color: #5FAB99;
+
+}
+
+/**Homepage**/
+.herosection {
+    background-image: url(../images/scientific-2040795_1280-min.jpg);
+    background-size: cover;
+    /**padding: 4rem 2rem; **/
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+}
+
+.herotitle {
+    font-family: 'Patua One', serif;
+    font-size: 40px;
+    background-color: rgba(255, 201, 94, 0.9);
+    color: #FF7A28;
+    display: inline-block;
+    padding: .2rem;
+  }
+
+  .herop {
+    font-family: 'Oxygen';
+    background-color: rgba(255, 201, 94, 0.9);
+    color: black;
+    padding: 12px;
+    display: inline-block;
+    padding: .2rem;
+  }
+
+  .herobutton {
+    background-color: #FF914D;
+    color: black;
+    font-family: 'Patua One', serif;
+    text-align: center;
+    display: inline-block;
+    border-radius: .15rem;
+    padding: .2rem;
+  }
+
