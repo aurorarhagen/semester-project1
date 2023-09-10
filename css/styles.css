@@ -8,23 +8,33 @@
 }
 @font-face {
     font-family:'Oxygen', sans-serif, Georgia, 'Times New Roman', Times, serif;
-    src: url('https://fonts.googleapis.com/css2?family=Oxygen&family=Patua+One&display=swap');
+    src: url('https://fonts.googleapis.com/css2?family=Oxygen&family=Patua+One&display=swap'); 
 }
 
-h1, .navtxt {
+h1, .navtxt, a {
     font-family: 'Patua One', serif;
     text-decoration: none;
     color: #F7F7F7;
     font-size: 40px;
 
 }
+
+h2 {
+    font-family: 'Patua One', serif;
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+}
+
 .navtxt {
     padding: 30px;
 }
+
 p, .herobutton {
     font-family: 'Oxygen';
     text-decoration: none;
 }
+
 body
 {
     background-color: #FFD686;
@@ -48,10 +58,13 @@ body
         font-size: 25px;
         padding: 15px;
     }
+    nav {
+        display: none;
+    }
 }
 
 /**Navigation**/
-nav, #nav-box {
+#nav-box {
     display: none;
 }
 
@@ -80,7 +93,6 @@ nav, #nav-box {
 
 header {
     background-color: #5FAB99;
-
 }
 
 /**Homepage **/
@@ -116,10 +128,58 @@ header {
 
   .herobutton {
     background-color: #FF914D;
-    color: black;
-    font-family: 'Patua One', serif;
     text-align: center;
     display: inline-block;
-    border-radius: .15rem;
+    border-radius: .2rem;
     padding: .2rem;
+    border: black;
   } 
+
+  .cardsection {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px,1fr));
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-right: 10px;
+    text-align: center;
+  }
+
+ .newscard {
+    display: grid;
+    background-image: url(../images/girl-with-red-hat-BBZDOHhYU2s-unsplash.jpg);
+    grid-template-rows: max-content 500px 1fr;
+    height: fit-content;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.eventscard {
+    display: grid;
+    background-image: url(../images/katherine-hanlon--WGk8tfkMAw-unsplash.jpg);
+    grid-template-rows: max-content 500px 1fr;
+    height: fit-content;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.exhibitionscard {
+    display: grid;
+    background-image: url(../images/roberto-nickson-396152\ \(3\).jpg);
+    grid-template-rows: max-content 500px 1fr;
+    height: fit-content;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+ 
+.newscard h1, .eventscard h1, .exhibitionscard h1 {
+    background-color: rgba(255, 201, 94, 0.8);
+    padding-left: 10px;
+}
