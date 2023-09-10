@@ -95,7 +95,13 @@ header {
     background-color: #5FAB99;
 }
 
-/**Homepage **/
+
+/*<----------------------->*/
+       /**Homepage**/
+/*<----------------------->*/
+
+    /**Hero **/
+
 .herosection {
     background-image: url(../images/scientific-2040795_1280-min.jpg);
     min-height: 500px;
@@ -134,6 +140,8 @@ header {
     padding: .2rem;
     border: black;
   } 
+
+     /**Cards **/
 
   .cardsection {
     display: grid;
@@ -182,4 +190,29 @@ header {
 .newscard h1, .eventscard h1, .exhibitionscard h1 {
     background-color: rgba(255, 201, 94, 0.8);
     padding-left: 10px;
+}
+
+.imgandhours {
+    padding-top: 20px;
+    padding-left: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px,1fr));
+    grid-gap: 15px;
+}
+
+.hours {
+    background-color: #FF914D;
+}
+
+    /**Image and hours **/
+
+.imgandhours img {
+    object-fit: cover;
+    height: fit-content;
+    width: 100%;
+    height: 100%;
+}
+
+.hours p, h2{
+    padding-left: 5px;
 }
