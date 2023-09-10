@@ -39,6 +39,7 @@ body
     .hamburger-nav{
         display: none;
     }
+    
 }
 
 @media (max-width: 600px) { 
@@ -82,14 +83,16 @@ header {
 
 }
 
-/**Homepage**/
+/**Homepage **/
 .herosection {
     background-image: url(../images/scientific-2040795_1280-min.jpg);
+    min-height: 500px;
     background-size: cover;
-    /**padding: 4rem 2rem; **/
+    padding: 6rem 2rem; 
     display: grid;
     align-items: center;
     grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+
 }
 
 .herotitle {
@@ -98,13 +101,14 @@ header {
     background-color: rgba(255, 201, 94, 0.9);
     color: #FF7A28;
     display: inline-block;
-    padding: .2rem;
+    padding: 22px;
+    grid-template-columns: repeat(auto-fit);
   }
 
   .herop {
     font-family: 'Oxygen';
     background-color: rgba(255, 201, 94, 0.9);
-    color: black;
+    color: white;
     padding: 12px;
     display: inline-block;
     padding: .2rem;
@@ -118,5 +122,4 @@ header {
     display: inline-block;
     border-radius: .15rem;
     padding: .2rem;
-  }
-
+  } 
