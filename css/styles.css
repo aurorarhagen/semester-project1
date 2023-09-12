@@ -22,10 +22,15 @@ h1, .navtxt, a {
 h2 {
     font-family: 'Patua One', serif;
     text-decoration: none;
-    font-size: 22px;
+    font-size: 26px;
     color: black;
 }
 
+h3 {
+    font-family: 'Oxygen';
+    font-weight: bold;
+    font-size: 20px;
+}
 .pageheadlines
 {
     font-family: 'Patua One', serif;
@@ -256,7 +261,6 @@ header {
 
 }
 
-
 .txtbox1 {
     background-color: #FF914D;
     padding: 10px;
@@ -286,6 +290,7 @@ header {
     background-color: #AF92ED;
     padding: 10px;
 }
+
 
    /**Footer **/
 /**
