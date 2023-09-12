@@ -37,7 +37,7 @@ h2 {
     padding: 30px;
 }
 
-p, .herobutton, .footertxt {
+p, .herobutton, .footertxt, .send {
     font-family: 'Oxygen';
     text-decoration: none;
     color: black;
@@ -323,4 +323,27 @@ header {
     padding-left: 25px;
     padding-right: 25px;
     grid-gap: 15px;
+}
+
+/*<----------------------->*/
+       /**Contact**/
+/*<----------------------->*/
+
+#contacttxt {
+    text-align: center;
+}
+
+.contactform {
+    margin: auto;
+    max-width: 600px;
+}
+
+.send {
+    display: block;
+    margin-top: 10px;
+}
+
+#message {
+    width: 350px;
+    height: 100px;
 }
