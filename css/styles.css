@@ -11,7 +11,7 @@
     src: url('https://fonts.googleapis.com/css2?family=Oxygen&family=Patua+One&display=swap'); 
 }
 
-h1, .navtxt, a {
+h1, a {
     font-family: 'Patua One', serif;
     text-decoration: none;
     color: #F7F7F7;
@@ -41,8 +41,9 @@ h3 {
 }
 
 .navtxt {
-    padding: 30px;
-    display: inline-block;
+    padding: 20px;
+    display: inline-block; 
+    font-size: 30px;
 }
 
 p, .herobutton, .footertxt, .send {
@@ -66,29 +67,30 @@ main {
 
 /**Media queries**/
 
-@media (min-width: 600px) {
+@media (min-width: 760px) {
     nav {
         display: inline;
     }
-    .hamburger-nav{
+    .hamburger-nav {
         display: none;
     }
-    
 }
 
-@media (max-width: 600px) { 
-    .navtxt{
+@media (max-width: 760px) { 
+    .navtxt {
         display: block;
         font-size: 25px;
         padding: 15px;
     }
     nav {
         display: none;
+        text-align: center;
     }
 
     header {
         min-height: 50px;
     }
+
 }
 
 /**Navigation**/
@@ -117,7 +119,7 @@ main {
 }
 
 .menu li {
-    display: inline;
+    display: inline; 
 }
 
 header {
@@ -148,7 +150,9 @@ main {
     grid-template-columns: repeat(auto-fit, minmax(240px,1fr));
   }
 
-  
+  .footercolumn1 {
+    padding-top: 19px;
+  }
 
 /*<----------------------->*/
        /**Homepage**/
@@ -205,8 +209,8 @@ main {
   .cardsection {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(350px,1fr));
-    grid-column-gap: 15px;
-    grid-row-gap: 15px;
+    column-gap: 20px;
+    row-gap: 15px;
     padding-left: 10px;
     padding-top: 20px;
     padding-right: 10px;
@@ -260,7 +264,8 @@ main {
     padding-left: 10px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px,1fr));
-    grid-gap: 15px;
+    gap: 15px;
+    padding-right: 10px;
 }
 
 .hours {
@@ -293,7 +298,7 @@ main {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px,1fr));
     grid-template-rows: repeat(auto-fit, minmax(350px,1fr));
-    grid-gap: 10px;
+    gap: 10px;
     padding-left: 25px;
     padding-right: 25px;
     color: black;
@@ -370,8 +375,8 @@ main {
 }
 
 #message {
-    width: 350px;
-    height: 100px;
+    width: 300px;
+    height: 80px;
 }
 
 
@@ -384,7 +389,7 @@ main {
     grid-template-columns: repeat(auto-fit, minmax(1fr,1fr));
     padding-left: 25px;
     padding-right: 25px;
-    grid-gap: 20px;
+    gap: 20px;
 }
 
 
