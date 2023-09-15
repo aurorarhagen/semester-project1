@@ -46,7 +46,7 @@ h3 {
     font-size: 30px;
 }
 
-p, .herobutton, .footertxt, .send {
+p, .herobutton, .footertxt, .send, .hoverlinks {
     font-family: 'Oxygen';
     text-decoration: none;
     color: black;
@@ -144,7 +144,7 @@ main {
     padding-left: 10px;
   }
 
- #hoverlinks:hover {
+ .hoverlinks:hover {
     font-weight: bold;
   }
 
