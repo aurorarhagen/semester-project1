@@ -349,6 +349,8 @@ main {
 
 #contacttxt {
     text-align: center;
+    padding-left: 8px;
+    padding-right: 8px;
 }
 
 .contactform {
@@ -364,8 +366,15 @@ main {
 #message {
     width: 300px;
     height: 80px;
+    font-family: 'Oxygen';
+    font-size: 16px;
 }
 
+input[type="text"], input[type="email"] {
+    font-size: 16px;
+    font-family: 'Oxygen';
+    width: 250px;
+}
 
 /*<----------------------->*/
        /**Exhibitions**/
