@@ -136,11 +136,16 @@ main {
     padding-bottom: 0px;
     background-color:#5FAB99;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(240px,1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
   }
 
   .footercolumn1 {
     padding-top: 19px;
+    padding-left: 10px;
+  }
+
+ #hoverlinks:hover {
+    font-weight: bold;
   }
 
 /*<----------------------->*/
@@ -340,7 +345,7 @@ main {
     grid-template-columns: repeat(auto-fit, minmax(450px,1fr));
     padding-left: 25px;
     padding-right: 25px;
-    grid-gap: 15px;
+    gap: 15px;
 }
 
 /*<----------------------->*/
