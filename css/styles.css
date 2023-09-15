@@ -131,17 +131,6 @@ main {
     padding-top: 40px;
 }
 
-   /**Footer 
-
-  .footertxt {
-    font-family: 'Oxygen';
-    color: black;
-    font-size: 16px;
-    font-weight: normal;
-    text-decoration: none;
-    display: block;
-  }
-**/
   footer {
     padding-top: 20px;
     padding-bottom: 0px;
@@ -171,7 +160,6 @@ main {
 
 }
 
-
 .herotitle {
     font-family: 'Patua One', serif;
     font-size: 40px;
@@ -182,7 +170,6 @@ main {
     padding: 10px 5px 10px 5px;
     width: 330px;
     text-align: center;
-    /**grid-template-columns: repeat(auto-fit);**/
   }
 
   .herop {
