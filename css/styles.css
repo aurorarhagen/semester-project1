@@ -385,6 +385,9 @@ input[type="text"], input[type="email"] {
     width: 250px;
 }
 
+.send {
+    background-color: #5FAB99;
+}
 /*<----------------------->*/
        /**Exhibitions**/
 /*<----------------------->*/
