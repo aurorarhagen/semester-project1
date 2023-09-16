@@ -165,7 +165,6 @@ main {
     display: grid;
     align-items: end;
     grid-template-columns: repeat(auto-fit, minmax(370px,1fr));
-
 }
 
 .herotitle {
