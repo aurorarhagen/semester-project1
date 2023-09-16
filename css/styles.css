@@ -162,7 +162,6 @@ main {
     background-image: url(../images/thisisengineering-raeng-TeJZ3CGZXRw-unsplash.jpg);
     min-height: 500px;
     background-size: cover;
-    padding: 6rem 2rem; 
     display: grid;
     align-items: end;
     grid-template-columns: repeat(auto-fit, minmax(370px,1fr));
