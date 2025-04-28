@@ -1,67 +1,60 @@
 # Semester Project 1 - Community Science Museum 
 
-![image](https://user-images.githubusercontent.com/52622303/164316813-4b12d99f-aeb7-4069-85cf-e72b3a50ac99.png)
+![image](/images/screenshot-homepage-sp1.jpg)
 
-A simple overview of the use/purpose of the project.
+This project is the first semester project I did at Noroff. It's a simple, static website for a museum geared towards children aged 7-15 and families with young children.  
 
 ## Description
 
-Add a more detailed description of what your project entails and set out to do.
-
-You can add some bullet points if you'd like to:
-
-- List item 1
-- List item 2
-- List item 3
+These are the requirements given in the project brief:  
+- The site must have a design that appeals to the target audience.  
+- The site must have at least 4-6 pages.  
+- Compositional principles, typography, and colour schemes must be considered.  
+- Your HTML should be semantic and neatly indented.  
+- The site should use external CSS style sheets which follow the DRY principle.  
+- The site should download quickly and not be overly “heavy”. Images should be at most 200kb.  
+- The site should consider WCAG principles, especially regarding hierarchy, navigation, and colour usage.  
+- The site should be responsive, attractive, and easy to use on various devices.  
+- The site should show consideration for content strategy and SEO (consider your use of meta tags and alt text).  
 
 ## Built With
 
-You can list a the tech stack that you've used over here
+- HTML  
+- CSS  
 
-- [React.js](https://reactjs.org/)
-- [Bootstrap](https://getbootstrap.com)
+### Additional software used  
 
-## Getting Started
+- Wireframes designed in Figma  
+- The logos are designed in Canva
 
-### Installing
+## Getting Started  
 
-This is where you list how to get the project started. It typically just includes telling a person to clone the repo and then to install the dependencies e.g.
+### Installing  
 
-1. Clone the repo:
-
-```bash
-git clone git@github.com:NoroffFEU/portfolio-1-example.git
-```
-
-2. Install the dependencies:
-
-```
-npm install
-```
-
-### Running
-
-Here is where you detail how to run the app. It typically involves the commands you'd need to run to start the project e.g.
-
-To run the app, run the following commands:
+1. Clone the repo:  
 
 ```bash
-npm run start
+git clone https://github.com/aurorarhagen/semester-project1.git
 ```
 
-## Contributing
+### Running  
 
-Here you can detail any information you want to provide regarding contributing to the project. For big projects you will usually have a separate `CONTRIBUTING.md` and link to it, but for smaller projects you can simply include instructions here. These instructions can simply detail the process you want a person to take, such as to make sure to open a pull request so code can be reviewed.
+1. Clone the repo  
+2. Run the repo in a code editor  
+3. Navigate to the page index.html and right-click to open with Live Server. You will now see the homepage in your default web browser  
 
-## Contact
+## Contributing  
 
-This is where you can leave your social links for people to contact you, such as a LinkedIn profile or Twitter link e.g.
+This is a school project and I am therefore not looking for contributors at the moment.  
 
-[My Twitter page](www.twitter.com)
+## Contact  
 
-[My LinkedIn page](www.linkedin.com)
+[My GitHub profile](https://github.com/aurorarhagen)  
 
-## License
+[My LinkedIn page](https://www.linkedin.com/in/aurora-r%C3%B8ed-hagen-580519203/)  
+
+## License  
 
 All images not from the file given in the brief are license-free from unsplash.com.  
 All fonts are from Google Fonts. 
+The logos in the navigation and on the About page are created by me. The graphics used to make the logos are owned by Canva and I do therefore not hold the exclusive rights to these logos.  
