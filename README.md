@@ -17,7 +17,8 @@ These are the requirements given in the project brief:
 - The site should be responsive, attractive, and easy to use on various devices.  
 - The site should show consideration for content strategy and SEO (consider your use of meta tags and alt text).  
 
-## Built With
+## Built With  
+### Tech stack  
 
 - HTML  
 - CSS  
